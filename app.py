@@ -5,7 +5,7 @@ import streamlit as st
 import cohere 
 from cohere import ClassifyExample
 
-co = cohere.Client('aRwa8PfjcBFBd4KXR5OsLyMNblIY8hV4gEK2IN0O')
+co = cohere.Client('api_key')
 
 df = pd.read_csv('/Users/kelvinfoo/Desktop/Side Projects/Parliament NLP/Combined Data 14th.csv')
 df['speaker'] = df['speaker'].replace({
