@@ -9,6 +9,9 @@ Only parliament sessions conducted from 2020-2021 were considered.
 - See which member of parliament spoke at a particular session and the sentiment of their speech.
 - Summarise the speeches made by members of parliaments at a specific session.
 
+<video src = 'https://github.com/kelvinfoo123/Analysis-of-Singapore-Parliament-Debates/assets/112041340/869d396f-b858-4d02-9ce3-667076ccea4d'></video>
+
+
 ### Model 
 - Cohere large language model was used for embedding, sentiment analysis and summary of speeches.
 - Few-shot classification was used to ensure better performance for sentiment analysis.
